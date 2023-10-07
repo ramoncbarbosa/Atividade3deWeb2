@@ -10,8 +10,6 @@
 /**/
 body{
     display: flex;
-    width: 100vw;
-    height: 100vh;
     background-color: #20C982;
 }
 /**/
@@ -20,18 +18,35 @@ body{
 }
 /**/
 .principal-cabecalho{
-    
+
+}
+/**/
+.logo-branca {
+    position: absolute;
+    top: 0;
+    left: 280px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.logo-verde{
+    top: 0;
+    left: 100px;
+    width: 120px;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
 /**/
 .div-mae{
     display: flex;
     height: 80vh;
-    width: 100vw;
+    width: 80vw;
     
     margin-top: 200px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 300px;
+    margin-right: 300px;
 
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
@@ -71,7 +86,7 @@ h2{
 }
 /**/
 .carro{
-    max-width: 30%;
+    width: 50%;
     margin-top: 10%;
     margin-left: 50px;
 }
