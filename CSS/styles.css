@@ -30,19 +30,12 @@ body{
     margin-left: 20px;
 }
 
-.logo-verde{
-    top: 0;
-    left: 100px;
-    width: 120px;
-    margin-top: 40px;
-    margin-left: 40px;
-}
 
 /**/
 .div-mae{
     display: flex;
     height: 80vh;
-    width: 80vw;
+    width: 100vw;
     
     margin-top: 200px;
     margin-left: 300px;
@@ -51,33 +44,47 @@ body{
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
     background-color: #fff;
+
 }
+
 /**/
-.div-carro, .div-esquerda {
+.div-carro,
+.div-inputs {
     flex: 1;
+    padding: 0; 
+}
+.div-inputs{
+    
 }
 /**/
-.div-carro{
-   
+
+.logo-verde{
+    top: 0;
+    left: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 210px;
 }
-/**/
-.div-esquerda{
-   
-}
+
 /**/
 h2{
-    margin-left: 50px;
+    margin-left: 210px;
     margin-top: 32px;
+    font-size: 40px;
+    text-align: justify;
 }
 /**/
 .div-textinho{
-    margin-left: 50px;
-    margin-top: 10px;
+    margin-left: 210px;
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: justify;
 }
 /**/
 .div-textinho2{
-    margin-right: 82px;
-    margin-top: 10px;
+    /* margin-right: 82px; */
+    margin-left: 300px;
+    margin-top: 100px;
 }
 
 /**/
@@ -86,7 +93,7 @@ h2{
 }
 /**/
 .carro{
-    width: 50%;
+    width: 100%;
     margin-top: 10%;
     margin-left: 50px;
 }
@@ -97,7 +104,8 @@ h2{
 .custom-select {
     position: relative;
     width: 200px;
-    margin: 20px;
+    margin-left: 300px;
+    margin-top: 10px;
 }
 
 .custom-select-label {
@@ -107,6 +115,7 @@ h2{
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
+    
 }
 
 .custom-select-options {
@@ -121,22 +130,26 @@ h2{
     max-height: 200px;
     overflow-y: auto;
     z-index: 1; 
+    
 }
 
 .custom-select-option {
     padding: 10px;
     cursor: pointer;
+    
 }
 
 .custom-select-option:hover {
     background-color: #f0f0f0;
+    
 }
 
 /**/
 .input-container {
     position: relative;
     width: 150px;
-    margin: 20px;
+    margin-left: 300px;
+    margin-top: 10px;
 }
 
 .input-container label {
@@ -162,5 +175,6 @@ h2{
     color: #fff;
     padding: 12px;
     border-radius: 8px;
+    margin-left: 300px;
     margin-top: 10px;
 }
