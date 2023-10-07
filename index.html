@@ -13,6 +13,7 @@
         </header>
     </main>
     <div class="div-mae">
+        <!---->
         <div class="div-carro">
             <h2>Simule o seu <br><a class="div-cor-verde">financiamento</a>.</h2>
             <p class="div-textinho">Escolha as melhores condições para<br> o financiamento do seu veículo.</p>
@@ -20,12 +21,26 @@
         </div>
         <div class="div-inputs">
             <p class="div-textinho2">Preencha os campos e simule<br> o seu financiamento.</p>
+            <!---->
+            <div class="custom-select">
+                <div class="custom-select-label" onclick="toggleOptions()">Qual banco vai usar?</div>
+                <div class="custom-select-options" id="options">
+                    <div class="custom-select-option" onclick="selectBank('Banco A')">Banco A</div>
+                    <div class="custom-select-option" onclick="selectBank('Banco B')">Banco B</div>
+                    <div class="custom-select-option" onclick="selectBank('Banco C')">Banco C</div>
+                    <!-- Adicione mais opções conforme necessário -->
+                </div>
+            </div>
+            <!---->
             <div class="input-container">
                 <label for="meuInput">Valor</label>
                 <input type="text" id="meuInput">
             </div>
+            <!---->
             <button class="botao">Simular financiamento</button>
         </div>
     </div>
+
+    <script src="./JavaScript/main.js"></script>
 </body>
 </html>
