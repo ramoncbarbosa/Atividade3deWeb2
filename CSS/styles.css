@@ -1,7 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 :root {
     
 }
 
 body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
     background-color: #20C982;
+}
+
+.principal{
+    background-color: #20C982;
+}
+
+.principal-cabecalho{
+    
+}
+
+
+.div-mae{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    
+    margin-top: 250px;
+    margin-left: 120px;
+    margin-right: 120px;
+
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    background-color: #fff;
+}
+
+.div-carro, .div-esquerda {
+    flex: 1;
+}
+
+.div-carro{
+   
+}
+
+.div-esquerda{
+   
+}
+
+h2{
+
+}
+
+.div-cor-verde{
+    color: #20C982;
+}
+
+.carro{
+    max-width: 40%;
+    margin-top: 10%;
 }
