@@ -65,6 +65,7 @@ h2{
     margin-top: 10px;
 }
 
+
 .div-cor-verde{
     color: #20C982;
 }
@@ -75,19 +76,29 @@ h2{
     margin-left: 50px;
 }
 
+.input-container {
+    position: relative;
+    width: 150px;
+    margin: 20px;
+}
 
+.input-container label {
+    position: absolute;
+    top: -10px; 
+    left: 10px;
+    font-size: 16px;
+    color: #20C982;
+    background-color: #fff; 
+    padding: 0 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.input-container input {
+    width: 100%;
+    padding: 5.5px;
+    font-size: 16px;
+    background-clip: content-box; 
+    border-radius: 5px;
+}
 
 .botao{
     background-color: #20C982;
