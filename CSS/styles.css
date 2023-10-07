@@ -29,7 +29,7 @@ body{
     height: 80vh;
     width: 100vw;
     
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: 120px;
     margin-right: 120px;
 
@@ -51,7 +51,18 @@ body{
 }
 
 h2{
+    margin-left: 50px;
+    margin-top: 32px;
+}
 
+.div-textinho{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.div-textinho2{
+    margin-right: 82px;
+    margin-top: 10px;
 }
 
 .div-cor-verde{
@@ -59,6 +70,29 @@ h2{
 }
 
 .carro{
-    max-width: 40%;
+    max-width: 30%;
     margin-top: 10%;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.botao{
+    background-color: #20C982;
+    color: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
 }
