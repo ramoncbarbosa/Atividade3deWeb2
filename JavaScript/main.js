@@ -8,6 +8,6 @@ function toggleOptions() {
 }
 
 function selectBank(bank) {
-    document.querySelector(".escolha-banco-label").textContent = bank;
+    document.querySelector(".custom-select-label").textContent = bank;
     document.getElementById("options").style.display = "none";
 }
