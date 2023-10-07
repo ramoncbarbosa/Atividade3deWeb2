@@ -5,16 +5,17 @@
 /**/
 
 :root {
-    
+    --color-one: #20C982;
+    --color-two: #fff;
 }
 /**/
 body{
     display: flex;
-    background-color: #20C982;
+    background-color: var(--color-one);
 }
 /**/
 .principal{
-    background-color: #20C982;
+    background-color: var(--color-one);
 }
 /**/
 .principal-cabecalho{
@@ -43,7 +44,7 @@ body{
 
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
-    background-color: #fff;
+    background-color: var(--color-two);
 
 }
 
@@ -83,98 +84,18 @@ h2{
 /**/
 .div-textinho2{
     /* margin-right: 82px; */
-    margin-left: 300px;
+    margin-left: 260px;
+    margin-right: 50px;
     margin-top: 100px;
 }
 
 /**/
 .div-cor-verde{
-    color: #20C982;
+    color: var(--color-one);
 }
 /**/
 .carro{
     width: 100%;
     margin-top: 10%;
     margin-left: 50px;
-}
-
-
-/**/
-
-.custom-select {
-    position: relative;
-    width: 200px;
-    margin-left: 300px;
-    margin-top: 10px;
-}
-
-.custom-select-label {
-    cursor: pointer;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    
-}
-
-.custom-select-options {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-top: none;
-    max-height: 200px;
-    overflow-y: auto;
-    z-index: 1; 
-    
-}
-
-.custom-select-option {
-    padding: 10px;
-    cursor: pointer;
-    
-}
-
-.custom-select-option:hover {
-    background-color: #f0f0f0;
-    
-}
-
-/**/
-.input-container {
-    position: relative;
-    width: 150px;
-    margin-left: 300px;
-    margin-top: 10px;
-}
-
-.input-container label {
-    position: absolute;
-    top: -10px; 
-    left: 10px;
-    font-size: 16px;
-    color: #20C982;
-    background-color: #fff; 
-    padding: 0 5px;
-}
-
-.input-container input {
-    width: 100%;
-    padding: 5.5px;
-    font-size: 16px;
-    background-clip: content-box; 
-    border-radius: 5px;
-}
-/**/
-.botao{
-    background-color: #20C982;
-    color: #fff;
-    padding: 12px;
-    border-radius: 8px;
-    margin-left: 300px;
-    margin-top: 10px;
 }
